@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.currency-tracker-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.heading {
+  color: #00e7ff;
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+.currency-img {
+  height: 200px;
+  width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .currency-img {
+    height: 400px;
+    width: 800px;
+  }
+}
+.currency-container-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00e7ff;
+  border-radius: 5px;
+}
+.coin-tyre-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  padding: 10px;
+}
+.min-container {
+  display: flex;
+  align-items: center;
+}
+.type-heading {
+  color: #fff;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 15px;
+}
